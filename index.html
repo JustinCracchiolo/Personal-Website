@@ -10,18 +10,24 @@
 <body>
     <header class = "header">
 
-        <a href = "#home">Justin<span>Cracchiolo</span></a>
+        <h3>Justin<span class ="blue-text">Cracchiolo</span></h3>
 
         <nav class = "navbar">
-            <a href = "#home" class = "active">Home</a>
-            <a href = "#about" >About</a>
-            <a href = "#contact">Contact</a>
+            <button onClick = "navToHome()">Home</button>
+            <button onClick = "navToAbout()">About</button>
+            <button onClick = "navToContact()">Contact</button>
         </nav>
     
     </header>
-    
-    <section id = "personal-image">
-        <img src="https://avatars.githubusercontent.com/u/163178137?s=400&u=a59a2bbfd20b93aba4f965dabd7b3eb2a94e1695&v=4" alt="image of me" id="pic">
+
+    <section id = "welcome">
+        <img id = "photo" src="https://avatars.githubusercontent.com/u/163178137?s=400&u=a59a2bbfd20b93aba4f965dabd7b3eb2a94e1695&v=4" alt="image of me" id="pic">
     </section>
+    <h1>I'm <span class = "blue-text">Justin</span></h1>
+    
+    <section id = "slide-container"> 
+        <img id = "project-slide">
+    </section>
+    
 </body>
 </html>
